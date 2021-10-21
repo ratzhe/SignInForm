@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tag para adaptação mobile-->
+    <!--Nome do site-->
+    <title>Formulario</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- ícone so site -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h3>SIGN IN</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Username">
+                <i data-feather="user"></i>
+            </div>
+
+            <div class="input-container">
+                <input type="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+
+            <div class="options-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remember" id="remenber">
+                    <label for="remember">Remember me</label>
+                </div><a href="www.google.com">Reset password</a>
+            </div>
+            <input type="submit" value="Sign in">
+
+            <p>or Sign in with</p>
+
+            <div class="social-media-container">
+                <div class="icon-container">
+                    <i data-feather="facebook"></i>
+                </div>
+
+                <div class="icon-container">
+                    <i data-feather="mail"></i>
+                </div>
+
+                <div class="icon-container">
+                    <i data-feather="twitter"></i>
+                </div>
+            </div>
+            <hr>
+            <p class="footer">Do not have an account?<a href="www.google.com"> Sign up now</a></p> 
+        </form>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
